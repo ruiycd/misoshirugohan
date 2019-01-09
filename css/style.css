@@ -1,0 +1,220 @@
+/* Common Style -------------------------- */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:14px;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    line-height:1.6;
+    font-weight:normal;
+}
+
+a{
+    color:#CCC;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#000;
+    text-decoration: none;
+    
+}
+
+#pagetop{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 10;
+}
+
+/* Header -------------------------- */
+header{
+    width:100vw;
+    height: 550px;
+        background-image: url(../img/mainvs.png) ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50%;
+    margin-bottom: 64px;
+    
+}
+
+.header-container{
+    width: 300px;
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+}
+
+header h1{
+    color: #000;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+header p{
+    color:darkgray;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+/* Profile -------------------------- */
+.profile{
+    width:100%;
+    padding: 72px 0; /* 上下72 左右0 */
+    text-align: center;
+}
+
+.profile h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.profile h3{
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.profile p{
+    font-size: 14px;
+    line-height: 2;
+}
+
+/*profile スマホ用 ---------------- */
+@media (max-width:767px){
+    
+    .profile{
+        padding: 72px 16px;
+        box-sizing: border-box;
+        /* paddingをwidthの中に含む */
+    }
+    
+}
+
+
+/* Works -------------------------- */
+.works{
+    text-align: center;
+}
+
+.contents-title{
+    color: #fff;
+    background-color: #000;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+        background-image: url(../img/syuwa.png);
+    background-position: 0% 60%;
+}
+
+.works h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.works p{
+    font-size: 14px;
+    
+    
+}
+.works h3{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 24px;
+}
+
+.sub{
+    margin-bottom: 32px;
+}
+
+.works-container{
+}
+
+
+
+#design{
+    padding-top: 64px;
+    padding-bottom: 2em;
+    background-color: #f4f4f4;
+    margin-bottom: 64px;
+}
+
+#design div{
+    margin-bottom: 64px;
+}
+
+
+
+#web{
+    margin-bottom: 64px;
+}
+
+.web img{
+    margin-bottom: 32px;
+}
+
+.web-1{
+    margin-bottom: 64px;
+}
+
+.web-2{
+    background-color: #fff;
+    margin-bottom: 64px;
+}
+
+.web-3 p{
+    line-height: 2em;
+}
+
+
+
+#others{
+    padding-top: 64px;
+    background-color: #f4f4f4;
+}
+
+#others div{
+    padding-bottom: 64px;
+}
+
+/*works のスマホ用--------------------*/
+@media (max-width:767px){
+    .works-container{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    
+    .graphic{
+        width: 100%;
+    }
+    
+    .motion{
+        width: 100%;
+    }
+    
+    .web{
+        width: 100%;
+    }
+    
+}
+
+
+
+/* Footer -------------------------- */
+
+footer{
+    padding: 72px 0;
+        background-image: url(../img/mainvs.png) ;
+    background-repeat: no-repeat;
+    background-position:0px 80% ;
+    background-size: 300%;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
